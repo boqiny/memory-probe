@@ -1,0 +1,6 @@
+openai
+numpy
+pandas
+tqdm
+python-dotenv
+rank-bm25
