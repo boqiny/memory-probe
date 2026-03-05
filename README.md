@@ -1,5 +1,7 @@
 # Memory Probe
 
+📄 **Paper:** [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473)
+
 Diagnostic framework that tests whether LLM memory agents actually *use* their retrieved memories. Evaluates three memory strategies on the LOCOMO dataset using LLM-as-judge probes for retrieval relevance, memory utilization, and failure analysis.
 
 ## Strategies
@@ -33,3 +35,18 @@ python run_experiment.py --strategy extracted_facts --workers 10
 # Analyze results
 python analyze_results.py results/results_TIMESTAMP.json
 ```
+
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@misc{yuan2026diagnosingretrievalvsutilization,
+      title={Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory}, 
+      author={Boqin Yuan and Yue Su and Kun Yao},
+      year={2026},
+      eprint={2603.02473},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.02473}, 
+}
