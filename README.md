@@ -1,5 +1,7 @@
 # Memory Probe
 
+> **Accepted at the [ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems (MemAgents)](https://openreview.net/forum?id=cxYbqAtBIz)**
+
 📄 **Paper:** [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473)
 
 Diagnostic framework that tests whether LLM memory agents actually *use* their retrieved memories. Evaluates three memory strategies on the LOCOMO dataset using LLM-as-judge probes for retrieval relevance, memory utilization, and failure analysis.
