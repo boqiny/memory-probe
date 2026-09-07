@@ -43,9 +43,11 @@ python analyze_results.py results/results_TIMESTAMP.json
 If you use this work in your research, please cite:
 
 ```bibtex
-@inproceedings{yuan2026diagnosing,
-  title={Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory},
-  author={Yuan, Boqin and Su, Yue and Yao, Kun},
-  booktitle={ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems}
-}
+@misc{yuan2026diagnosingretrievalvsutilization,
+      title={Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory}, 
+      author={Boqin Yuan and Yue Su and Kun Yao},
+      year={2026},
+      eprint={2603.02473},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.02473}, 
 }
